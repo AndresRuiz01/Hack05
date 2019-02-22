@@ -37,10 +37,6 @@ void reverse(int *arr, int size) {
     arr[i] = arr[size-(1+i)];
     arr[size-(i+1)] = store;
   }
-
-  for(int i = 0; i < size; i++)
-    printf("%d ", arr[i]);
-  return;
 }
 
 int orderStatistic(int *arr, int size, int i){
